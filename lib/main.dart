@@ -1,6 +1,9 @@
-import 'package:flutter/material.dart';
+import 'package:team_task_app/src/config/export_config.dart';
+import 'package:team_task_app/src/services/export_services.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 
