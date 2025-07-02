@@ -11,7 +11,9 @@ A team-based task management Flutter app with real-time notifications when tasks
 - ✅ Get instant notifications when a task is added or updated
 - ✅ Store project and task data using Firestore
 - ✅ Send notifications with Firebase Cloud Messaging (FCM)
-- ✅ Clean and easy-to-understand project structure (using MVC + GetX)
+- ✅ Reactive state updates using GetX
+- ✅ Clean project structure (MVC + Bindings)
+- ✅ Have custom widgets for reusable UI parts
 - ✅ Ready to support calendar view and task filters in the future
 
 ## 🛠 Tech Stack
@@ -43,7 +45,9 @@ flutter run
 - ✅ แจ้งเตือนทันทีเมื่อมีการสร้างหรือแก้ไขงาน
 - ✅ เก็บข้อมูลโปรเจกต์และงานไว้ใน Firestore
 - ✅ ส่งการแจ้งเตือนผ่าน Firebase Cloud Messaging (FCM)
-- ✅ จัดโครงสร้างโปรเจกต์ให้สะอาดและเข้าใจง่าย (ใช้ MVC และ GetX)
+- ✅ อัพเดทสถานะโดยใช้ Getx
+- ✅ โครงสร้างโปรเจกต์ที่เป็นระเบียบ (MVC + Bindings)
+- ✅ มีวิดเจ็ตที่สร้างเอง สำหรับใช้ซ้ำในส่วนของ UI
 - ✅ เตรียมพร้อมสำหรับการดูงานแบบปฏิทินและกรองตามสถานะในอนาคต
 
 ## 🛠 เทคโนโลยีที่ใช้ในการพัฒนา
